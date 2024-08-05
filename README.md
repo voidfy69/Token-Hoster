@@ -22,7 +22,7 @@ This Tool Will Host Tokens With Vc Joiner And Start Fake Typing
    ```py
    git clone https://github.com/voidfy69/Token-Hoster.git
 
-   cd your-repo-name
+   cd Token-Hoster
 
    python sex.py
    ```
