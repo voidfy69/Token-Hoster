@@ -24,4 +24,4 @@ This Tool Will Host Tokens With Vc Joiner And Start Fake Typing
 
    cd your-repo-name
 
-   python sex.py```
+   python sex.py ```
