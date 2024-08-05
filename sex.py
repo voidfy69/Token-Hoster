@@ -31,7 +31,7 @@ class TokenHandler:
         self.proxyless = proxyless
 
     async def start(self):
-        channel = "1269678214456807494"  # Replace with your channel ID
+        channel = ""  # Replace with your channel ID
         async with TaskPool(5_000) as pool:
             tasks = [self.typingSpammer(token, channel) for token in self.tokens]
             await asyncio.gather(*tasks)  # Gather all tasks
@@ -182,7 +182,7 @@ async def hosting(token, status, activity):
     @client.event
     async def on_ready():
         print(f"Void | Connected: {client.user}")
-        vc = client.get_channel(1269515747030466581)  # Replace with your voice channel ID
+        vc = client.get_channel(123)  # Replace with your voice channel ID
         if vc is not None:
             try:
                 await vc.connect()
