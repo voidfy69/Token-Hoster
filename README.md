@@ -19,9 +19,10 @@ This Tool Will Host Tokens With Vc Joiner And Start Fake Typing
 ### Setup
 
 1. Clone the repository:
-   ```bash
+   ```py
    git clone https://github.com/voidfy69/Token-Hoster.git
 
    cd your-repo-name
 
    python sex.py
+```
